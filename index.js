@@ -209,7 +209,7 @@ function help(msg) {
             value: `Creates your Database`,
         }, {
             name: `${settings.commands.add} arg1 arg2 arg3 arg4 ...`,
-            value: `Adds all the questions in the databse as specified in the argument list`,
+            value: `Adds all the question in the databse as specified in the argument list`,
         }],
         footer: {
             text: 'EulerBot',
