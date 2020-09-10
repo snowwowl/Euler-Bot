@@ -1,23 +1,11 @@
 {
   "users": [
     {
-      "id": "588379780055826517",
+      "id": "436216084085997569",
       "items": [
         {
-          "Q": "1A",
-          "link": "https://codeforces.com/problemset/problem/1/A"
-        },
-        {
-          "Q": "1B",
-          "link": "https://codeforces.com/problemset/problem/1/B"
-        },
-        {
-          "Q": "1C",
-          "link": "https://codeforces.com/problemset/problem/1/C"
-        },
-        {
-          "Q": "1D",
-          "link": "https://codeforces.com/problemset/problem/1/D"
+          "Q": "12A",
+          "link": "https://codeforces.com/problemset/problem/12/A"
         }
       ]
     }

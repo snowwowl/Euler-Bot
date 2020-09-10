@@ -62,3 +62,6 @@ typings/
 
 #temp
 temp.js
+
+#database
+db.json

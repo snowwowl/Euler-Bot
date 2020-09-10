@@ -81,8 +81,15 @@ function deleteArg(msg, args) {
 }
 
 function createDatabase(msg) {
-    db.get('users').push({id: msg.author.id, items: []}).write();
-    msg.reply(`Your ID is : ${msg.author.id}\nCreated database`);
+    if(db.get('users').find({id: msg.author.id}).value() != null){
+        msg.reply(`Already exists`);
+    }
+    else{
+        db.get('users').push({id: msg.author.id, items: []}).write();
+        msg.reply(`Your ID is : ${msg.author.id}\nCreated database`);
+    }
+    
+    
 }
 
 //Used to add Questions
