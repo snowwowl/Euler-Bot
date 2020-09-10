@@ -1,7 +1,6 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = process.env.TOKEN;
 
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
@@ -222,4 +221,4 @@ function help(msg) {
     return;
 }
 
-bot.login(TOKEN);
+bot.login(process.env.TOKEN);
