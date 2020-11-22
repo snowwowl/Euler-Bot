@@ -1,11 +1,12 @@
-# Euler Bot
+# Euler Bot #
+A basic Discord Bot to store your solved CodeForces questions remotely and access them anytime using simple commands.
 
-## Requirements
+## Requirements ##
 
 - [Node.js](http://nodejs.org/)
 - [Discord](https://discordapp.com/) account
 
-## Installation Steps (if applicable)
+## Installation Steps (if applicable) ##
 
 1. Clone repo
 2. Run `npm install`
